@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Oswald, sans-serif;
+  text-align: center;
+  align-items: center;
+}
+.container-fluid h3 {
+  color: #717a7e;
+  font-size: 2em;
+  font-weight: 100;
+}
+.trade-window {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+}
+.trade-1,
+.trade-2,
+.trade-4,
+.trade-5 {
+  flex-basis: 15%;
+  flex-wrap: wrap;
+  color: rgb(61, 198, 193);
+  font-size: 2em;
+  padding: 20px;
+}
+
+.trade-1 p,
+.trade-2 p,
+.trade-4 p,
+.trade-5 p {
+  font-size: 15px;
+  color: grey;
+}
+.trade-3 {
+  flex-basis: 40%;
+  color: white;
+}
+.trade-3 h1 {
+  font-size: 5em;
+}
+.trade-3 p {
+  color: grey;
+  font-size: 15px;
+}
+.banner {
+  width: 100%;
+  height: 13em;
+  border-radius: 20px;
+}

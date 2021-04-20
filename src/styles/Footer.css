@@ -1,0 +1,33 @@
+.footer {
+  text-align: left;
+}
+.footer hr {
+  border: 0.2px solid grey;
+}
+.footer ul {
+  display: inline-block;
+  justify-content: space-between;
+}
+.footer ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px;
+  font-size: 13px;
+  margin-left: 0;
+}
+.footer ul li a {
+  color: rgb(170, 166, 166);
+  text-decoration: none;
+}
+.footer ul li a span {
+  color: rgb(61, 198, 193);
+}
+.btn {
+  background-color: transparent;
+  border: 1px solid rgb(61, 198, 193);
+  color: rgb(61, 198, 193);
+}
+.btn:hover {
+  color: white;
+  background-color: rgb(61, 198, 193);
+}

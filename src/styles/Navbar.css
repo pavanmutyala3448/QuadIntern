@@ -1,0 +1,68 @@
+body {
+  background-color: #191d28;
+  font-family: Oswald, sans-serif;
+  text-align: center;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+}
+.navbar-brand img {
+  width: 15em;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.navbar-brand p {
+  font-family: Oswald, sans-serif;
+  color: grey;
+  padding: 10px;
+  padding-top: 0;
+  margin: 0;
+}
+.navbar-brand p a {
+  color: rgb(61, 198, 193);
+  text-decoration: none;
+}
+.toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+.navbar-nav {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 40%;
+  font-size: 30px;
+}
+.nav-item {
+  margin: 10px;
+}
+.toggle,
+.toggle-btn {
+  color: white;
+  border-radius: 10px;
+  background-color: #2e3241;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.toggle:hover {
+  color: white;
+}
+.connect-btn {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  background-color: rgb(61, 198, 193);
+  border: none;
+}
+.connect-btn img {
+  width: 20px;
+  margin: 5px;
+}
